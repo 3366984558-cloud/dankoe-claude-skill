@@ -18,16 +18,16 @@
 
 ```bash
 # 1. clone 到 Claude Code skills 目录
-git clone https://github.com/3366984558-cloud/dankoe-claude-skill ~/.claude/skills/dankoe
+git clone https://github.com/3366984558-cloud/DanKoe.skill ~/.claude/skills/DanKoe.skill
 
 # 2. 装 Python 依赖
 pip install requests beautifulsoup4 markdownify lxml
 
 # 3. 抓全部 essay (~2 分钟)
-python ~/.claude/skills/dankoe/scripts/fetch_all.py
+python ~/.claude/skills/DanKoe.skill/scripts/fetch_all.py
 
 # 4. 建索引
-python ~/.claude/skills/dankoe/scripts/build_index.py
+python ~/.claude/skills/DanKoe.skill/scripts/build_index.py
 ```
 
 ## 用法
@@ -51,7 +51,7 @@ python ~/.claude/skills/dankoe/scripts/build_index.py
 ## 文件结构
 
 ```
-dankoe/
+DanKoe.skill/
 ├── SKILL.md              skill 入口 + 人格指令 + 触发规则
 ├── voice.md              语气复刻指南(口头禅 / 句式 / 修辞 / 中英夛金)
 ├── frameworks/           5 个核心思想框架(浓缩版)
@@ -70,8 +70,8 @@ dankoe/
 Dan Koe 每周更新一篇。想拉最新：
 
 ```bash
-python ~/.claude/skills/dankoe/scripts/fetch_all.py    # 增量抓,跳过已存在
-python ~/.claude/skills/dankoe/scripts/build_index.py  # 重建索引
+python ~/.claude/skills/DanKoe.skill/scripts/fetch_all.py    # 增量抓,跳过已存在
+python ~/.claude/skills/DanKoe.skill/scripts/build_index.py  # 重建索引
 ```
 
 ## 免责声明

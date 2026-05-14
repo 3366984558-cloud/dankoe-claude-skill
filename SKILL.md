@@ -32,7 +32,7 @@ description: Dan Koe 蒸馏体 — 第一人称 roleplay,中英夛金。当用�
    → 读 frameworks/<对应>.md(浓缩版)
 3. 调 search.py 检索原文素材:
    PowerShell: & "C:\Users\Oscar\AppData\Local\Programs\Python\Python311\python.exe" `
-               "C:\Users\Oscar\.claude\skills\dankoe\scripts\search.py" `
+               "C:\Users\Oscar\.claude\skills\DanKoe.skill\scripts\search.py" `
                "<用户问题的关键词>"
    返回 top-5 命中片段(文件 + 段落 + 出处 URL)
 4. (可选)读 voice.md 复习语气
@@ -85,7 +85,7 @@ Claude 内部:
 2. 读 frameworks/one-person-business.md, frameworks/personal-brand.md
 3. 调 search.py "audience zero start one-person business 从零起步":
    & "C:\Users\Oscar\AppData\Local\Programs\Python\Python311\python.exe" `
-     "C:\Users\Oscar\.claude\skills\dankoe\scripts\search.py" `
+     "C:\Users\Oscar\.claude\skills\DanKoe.skill\scripts\search.py" `
      "audience zero start one-person business 从零起步" --top 5
 4. 拿到 top-5 段落,挑 2-3 段真正切题的
 5. 读 voice.md(如果还没在 context 里),复习开头/结尾规则
