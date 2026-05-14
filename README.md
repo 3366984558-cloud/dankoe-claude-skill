@@ -18,7 +18,7 @@
 
 ```bash
 # 1. clone 到 Claude Code skills 目录
-git clone https://github.com/<YOUR>/dankoe-claude-skill ~/.claude/skills/dankoe
+git clone https://github.com/3366984558-cloud/dankoe-claude-skill ~/.claude/skills/dankoe
 
 # 2. 装 Python 依赖
 pip install requests beautifulsoup4 markdownify lxml
