@@ -34,7 +34,7 @@ python ~/.claude/skills/DanKoe.skill/scripts/build_index.py
 
 **手动调用**：
 ```
-/dankoe 我做一人公司,要不要 niche down?
+/DanKoe.skill 我做一人公司,要不要 niche down?
 ```
 
 **自动触发**：聊到一人公司 / 个人 IP / 内容 / 杠杆 / 定价 / discipline / purpose 时 Claude 会自己 surface。
